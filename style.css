@@ -1,0 +1,121 @@
+* {
+  background-color: rgb(16, 70, 16);
+  margin: 0px;
+  padding: 0px;
+  /* overflow: hidden; */
+}
+.container1 {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  height: 80vh;
+  width: 43vw;
+  border-radius: 50px;
+  background-color: #cfbb05;
+}
+
+.container2 {
+  position: absolute;
+  left: 13px;
+  top: 3%;
+  width: 41vw;
+  height: 75vh;
+  border-radius: 40px;
+  background-color: rgb(16, 70, 16);
+}
+
+.container3 {
+  position: absolute;
+  left: 30px;
+  top: 27px;
+  height: 66vh;
+  width: 89%;
+  border-radius: 25px;
+  background-image: url(./barcode.png);
+  background-color: white;
+}
+.text {
+  height: 95vh;
+  position: absolute;
+  right: 14px;
+  width: 64vw;
+  z-index: -1;
+  top: 14px;
+  background-color: white;
+  overflow: hidden;
+}
+.text h2 {
+  position: absolute;
+  background-color: white;
+  color: rgb(16, 70, 16);
+  left: 52%;
+  top: 4%;
+  font-size: xx-large;
+}
+.text h1 {
+  position: absolute;
+  background-color: white;
+
+  color: rgb(16, 70, 16);
+  top: 9%;
+  left: 48%;
+  font-size: -webkit-xxx-large;
+}
+.text .house {
+  position: absolute;
+  background-color: white;
+  color: rgb(16, 70, 16);
+  top: 20%;
+  left: 31%;
+  font-size: x-large;
+}
+.house2{
+  font-size: xx-large;
+}
+.wasted {
+  position: absolute;
+  background-color: white;
+  color: rgb(16, 70, 16);
+  top: 34%;
+  left: 42%;
+  font-size: x-large;
+  font-family: -webkit-pictograph;
+}
+.hr1 {
+  position: absolute;
+  top: 25%;
+}
+.scan {
+  position: absolute;
+  background-color: white;
+  color: rgb(16, 70, 16);
+  top: 45%;
+  left: 39%;
+  font-weight: bolder;
+  font-size: xx-large;
+}
+.last {
+  position: static;
+  margin: 36%;
+  padding: 15px;
+  width: 37%;
+  text-align: center;
+  background-color: white;
+  color: white;
+  margin-top: 46%;
+  font-size: xx-large;
+ 
+}
+b{
+  background-color: white;
+  color: rgb(16, 70, 16);
+}
+
+.equal{
+  background-color: white;
+  color: rgb(16, 70, 16);
+}
+span{
+  background-color: white;
+  color: rgb(16, 70, 16);
+}
